@@ -1,7 +1,6 @@
 // const BASE_URL = 'https://api.findidealworker.my.id';
 // const BASE_URL = 'http://34.101.86.80';
-const BASE_URL =
-  "https://20230507t170313-dot-faisal-project-380209.et.r.appspot.com/";
+const BASE_URL = "https://app-be-dot-faisal-project-380209.et.r.appspot.com/";
 
 function getAccessToken() {
   return localStorage.getItem("accessToken");
