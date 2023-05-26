@@ -1,18 +1,12 @@
-import React from 'react';
-import WorkerItem from './workerItem';
+import React from "react";
+import WorkerItem from "./workerItem";
 
-function WorkerList({data}) {
-
+function WorkerList({ data }) {
   return (
-    <div className='worker-list'>
-      {
-        data.map((d) => (
-          <WorkerItem 
-          key={d.id}
-          id={d.id}
-          {...d} />
-        ))
-      }
+    <div className="worker-list">
+      {data.map((d) => (
+        <WorkerItem key={d.id} id={d.id} {...d} />
+      ))}
     </div>
   );
 }
