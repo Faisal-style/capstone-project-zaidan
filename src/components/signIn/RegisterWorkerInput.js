@@ -115,6 +115,7 @@ class RegisterWorkerInput extends React.Component {
       kecamatan: this.state.kecamatan,
       kelurahan: this.state.kelurahan,
       rating: 5,
+      address: this.state.address,
       id_role: 1,
     });
   }
